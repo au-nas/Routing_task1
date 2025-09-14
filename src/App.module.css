@@ -4,6 +4,19 @@
 	margin: 0;
 }
 
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cuted {
+	display: inline-block;
+	max-width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .item {
 	display: flex;
 	align-items: center;
